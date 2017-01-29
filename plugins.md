@@ -4,6 +4,6 @@ permalink: /plugins/
 ---
 # Supported Plugins
 
-Git: [repo]({% link https://github.com/HedronDev/Git %})
+Git: [repo](https://github.com/HedronDev/Git)
 
-Drupal 8: [repo]({% link https://github.com/HedronDev/Drupal8 %})
+Drupal 8: [repo](https://github.com/HedronDev/Drupal8)
