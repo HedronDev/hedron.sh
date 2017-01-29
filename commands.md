@@ -13,6 +13,7 @@ permalink: /commands/
 | --- | --- |
 | **core:install** | *Install Hedron* |
 | **core:update** | *Update Hedron core to the newest available code.* |
+| **core:composer** | *Add composer-able dependencies to Hedron core.* |
 
 ## Docker
 
