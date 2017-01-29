@@ -3,6 +3,16 @@ layout: page
 title: Quick Start
 permalink: /quickstart/
 ---
+# Picking Plugins
+
+Hedron is extensible so that you can easily add your own logical project types, customized parsers and other helpful tools. Because of this, Hedron ships with limited capabilities and you must first choose what components you wish to include in your install.
+
+A list of available supported plugins can be found on the [Plugins page]({% link plugins.html %}). For this quick start we'll use the Drupal 8 component.
+
+{% highlight bash %}
+hedron core:composer hedron/drupal8
+{% endhighlight %}
+
 # Foundational knowledge
 
 Hedron relies on docker-compose for building out development environments. Docker uses the name of the containing folder to determing exactly how it is going to name containers within the cluster. In order to prevent conflicting container names, Hedron uses a client/project/branch paradigm for building out environments. If you had a client named "Foo" and a project named "Bar", then Hedron would end up maintaining appropriate directory structures for all of this as well as ensuring that docker specific directories were in the pattern of foo-bar-{git-branch-name}.
