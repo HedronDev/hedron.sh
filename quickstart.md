@@ -7,7 +7,7 @@ permalink: /quickstart/
 
 Hedron is extensible so that you can easily add your own logical project types, customized parsers and other helpful tools. Because of this, Hedron ships with limited capabilities and you must first choose what components you wish to include in your install.
 
-A list of available supported plugins can be found on the [Plugins page](plugins). For this quick start we'll use the Drupal 8 component.
+A list of available supported plugins can be found on the [Plugins page](/plugins). For this quick start we'll use the Drupal 8 component.
 
 {% highlight bash %}
 hedron core:composer hedron/drupal8
