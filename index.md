@@ -17,6 +17,7 @@ Hedron is an PHP and Docker-based tool for generating ops and development artifa
 ### Requirements
 Hedron has a short list of requirements most developers will already have installed.
 
++ zip
 + git
 + composer
 + php7+
