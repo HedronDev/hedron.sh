@@ -23,6 +23,9 @@ Hedron has a short list of requirements most developers will already have instal
 + php7+
 + Docker (and docker-compose)
 
+### How Hedron Works
+Hedron has a number of powerful features for controlling the workflow of a project, but at its heart, Hedron operates on top of git to watch what files have changed from one commit to another. This gives unprecidented control over the operations that can be performed because Hedron can actually inspect and react to the changing state of your project.
+
 ### Getting Started with HedronCLI
 Hedron is broken up into two primary components. The first is HedronCLI which is a command line utility designed to help manage your Hedron projects as well as installing and updating Hedron itself. To get HedronCLI simply perform the following commands in your terminal.
 {% highlight bash %}
